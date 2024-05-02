@@ -21,7 +21,7 @@ export default function PostDetails() {
 
     return (
         <div>
-            <h2>Post Details</h2>
+            <h3>Post Details</h3>
             <p>{post.title}</p>
             <p>{post.body}</p>
             <Link to="/posts">Back to Posts</Link>
